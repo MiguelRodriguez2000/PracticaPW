@@ -11,9 +11,15 @@ if (isset($_POST["registrar"])) {
 
         try {
             $conexion = new PDO('mysql:host=localhost;dbname=practicapw', 'root', '');
-            $insercion = $conexion->prepare('INSERT INTO usuarios')
-        } catch (\Throwable $th) {
-            //throw $th;
+            $insercion = $conexion->prepare('INSERT INTO usuarios(nombre, apellido, correo, contra, rol) 
+            values ($nombre, $apellido, :usuario, :contra, $rol)');
+            $insercion -> execute(array(
+                ':usuario' => $usuario,
+                ':contra' => $contra
+            ));
+            echo "Nuevo registro realizado";
+        } catch (Exception $e) {
+            echo "Error: ".$e->getMessage();
         }
     }
 }
