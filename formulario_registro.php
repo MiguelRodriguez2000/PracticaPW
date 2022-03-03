@@ -8,7 +8,7 @@
 	<h1><center>Registro</center></h1>
 	<h2><center>¡¡Bienvenido!!</center></h2>
 	<h3><center>Ingrese correctamente sus datos</center></h3>
-	<form method="POST" action="registro.php">
+	<form method="POST" action="registro.php" name ="registrar">
 		<center>Nombre: <input required type="text" name="nombre" id="nombre"></center>
 		<br>
 		<center>Apellido: <input required type="text" name="apellido" id="apellido"></center>
@@ -28,4 +28,3 @@
     <center><a href='ingresar.php'>¿Ya tienes una cuenta?</a></center>
 </body>
 </html>
-que vamos hacer?
