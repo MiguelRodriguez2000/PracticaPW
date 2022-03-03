@@ -28,3 +28,4 @@
     <center><a href='ingresar.php'>¿Ya tienes una cuenta?</a></center>
 </body>
 </html>
+que vamos hacer?
