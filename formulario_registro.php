@@ -22,7 +22,7 @@
     </select></center>
 		<center>Contraseña: <input required type="text" name="contra" id="contra"></center>
 		<br>
-		<center><input type="submit" name="enviar" value="Registrar"></center>
+		<center><input type="submit" name="enviar" value="registrar"></center>
 	</form>
 	<br/><br/>
     <center><a href='ingresar.php'>¿Ya tienes una cuenta?</a></center>
