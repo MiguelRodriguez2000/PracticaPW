@@ -8,7 +8,7 @@
 	<h1><center>Registro</center></h1>
 	<h2><center>¡¡Bienvenido!!</center></h2>
 	<h3><center>Ingrese correctamente sus datos</center></h3>
-	<form method="POST" action="registro.php" name ="registrar">
+	<form method="POST" action="registro.php">
 		<center>Nombre: <input required type="text" name="nombre" id="nombre"></center>
 		<br>
 		<center>Apellido: <input required type="text" name="apellido" id="apellido"></center>
@@ -22,7 +22,7 @@
     </select></center>
 		<center>Contraseña: <input required type="text" name="contra" id="contra"></center>
 		<br>
-		<center><input type="submit" name="enviar" value="registrar"></center>
+		<center><input type="submit" name="enviar" value="Registro"></center>
 	</form>
 	<br/><br/>
     <center><a href='ingresar.php'>¿Ya tienes una cuenta?</a></center>
