@@ -19,7 +19,7 @@
         <option value="0">Lector</option>
         <option value="1">Escritor de reseñas</option>
         <option value="2">Critico</option>
-    </select></center>
+    </select></center><br>
 		<center>Contraseña: <input required type="text" name="contra" id="contra"></center>
 		<br>
 		<center><input type="submit" name="enviar" value="Registro"></center>
