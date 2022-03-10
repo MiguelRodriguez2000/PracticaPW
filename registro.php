@@ -22,6 +22,8 @@
                 ':rol' => $rol
             ));
             echo "Nuevo registro realizado";
+            echo "<br/><br/>";
+            echo "<a href='listado.php'>Ir a Lista de Usuarios </a>";
         } catch (Exception $e) {
             echo "Error: ".$e->getMessage();
         }
